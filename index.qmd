@@ -1,26 +1,34 @@
 ---
-title: "Introduction to Data Science Course Website"
+title: "Pesquisa Para Elas 2024"
 ---
 
-## Course overview
+## Bem-vindas!
 
-**Course overview from STA 199: Introduction to Data Science at Duke University**
+**Informações Gerais**
 
 Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.
 
-## Class meetings
+## Encontros semanais & Office Hours
 
-| Meeting | Location | Time                   |
-|---------|----------|------------------------|
-| Lecture | Room A   | Mon & Wed 10 - 11:15am |
-| Lab 01  | Room B   | Thu 10 - 11:15am       |
-| Lab 02  | Room C   | Thu 1:45 - 3pm         |
-| Lab 03  | Room D   | Thu 3:30 - 4:45pm      |
+| Tópico  | Horário e Data | 
+|---------|----------------|
+| Lecture | Room A         | 
+| Lab 01  | Room B         | 
 
-## Teaching team 
+## Time
 
-| Name                 | Office hours   | Location   |
-|----------------------|----------------|------------|
-| Instructor           | Tue 2 - 3pm    | Office 123 |
-| Teaching Assistant 1 | Mon 5 - 7pm    | Zoom       |
-| Teaching Assistant 2 | Fri 11am - 1pm | Zoom       |
+```{r, results='asis', echo=FALSE}
+
+library(knitr)
+
+# Data for the table with links
+data <- data.frame(
+  Meeting = c("Lecture", "Lab 01", "Lab 02", "Lab 03"),
+  Time = c("Mon & Wed 10 - 11:15am", "Thu 10 - 11:15am", "Thu 1:45 - 3pm", "Thu 3:30 - 4:45pm")
+)
+
+# Print the table
+kable(data, format = "html", table.attr = 'class="table table-bordered table-condensed"', escape = FALSE, col.names = c("Nome", "Contato"))
+
+```
+

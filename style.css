@@ -1,0 +1,13 @@
+/* styles.css */
+
+.sidebar-tool-icon {
+  color: white;  /* Set the color of the icons to white */
+}
+body {
+      background-color: #800008;  /* Replace with your specific purple color code */
+    }
+
+.sidebar-logo img {
+  max-width: 150px;  /* Adjust the maximum width of the logo */
+  height: auto;  /* Maintain the aspect ratio */
+}

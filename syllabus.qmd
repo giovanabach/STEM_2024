@@ -1,12 +1,10 @@
 ---
-title: "Syllabus"
+title: "Informações importantes"
 ---
-
-**Excerpts of Fall 2021 syllabus from STA 199: Introduction to Data Science at Duke University**
 
 <hr>
 
-## Course Learning Objectives
+## Objetivos do programa
 
 By the end of the semester, you will...
 
@@ -60,19 +58,6 @@ There will be two, take-home, open-note exams. Through these exams you have the 
 The purpose of the [final project](/project/) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question.
 
 ## Grading
-
-The final course grade will be calculated as follows:
-
-<center>
-
-| Category           | Percentage |
-|--------------------|------------|
-| Homework           | 30%        |
-| Labs               | 15%        |
-| Final Project      | 15%        |
-| Exam 01            | 17.5%      |
-| Exam 02            | 17.5%      |
-| In-class exercises | 5%         |
 
 ## Course policies
 

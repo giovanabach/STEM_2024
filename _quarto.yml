@@ -2,10 +2,10 @@ project:
   type: website
 
 website:
-  title: "Teach Data Science Course Website"
+  title: "Pesquisa Para Elas 2024"
   sidebar:
-    background: primary
-    logo: "images/logo.png"
+    background: purple
+    logo: "images/logostem.png"
     pinned: true
     align: center
     tools:
@@ -18,17 +18,16 @@ website:
     style: docked
     contents:
       - href: index.qmd
-        text: Home
+        text: Página Inicial
       - href: syllabus.qmd
-        text: Syllabus
+        text: Recursos
       - href: schedule.qmd
-        text: Schedule
+        text: Cronograma
         
 format:
   html:
-    theme: cosmo
-   # css: styles.css
-    toc: true
-
+    theme: Materia
+    css: styles.css #Reference an external CSS file
+toc: true
 
 

@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/weeks/week-01.html",
+    "items": [
+      "/slides/week-01/01-example.html",
+      "/slides/week-01/02-demo.html"
+    ]
+  },
+  {
     "listing": "/weeks/week-02.html",
     "items": [
       "/slides/week-02/03-ggplot.html",
@@ -17,13 +24,6 @@
       "/slides/week-03/08-multiple-data-frames.html",
       "/hw/w3-hw02.html",
       "/labs/w3-lab02.html"
-    ]
-  },
-  {
-    "listing": "/weeks/week-01.html",
-    "items": [
-      "/slides/week-01/01-example.html",
-      "/slides/week-01/02-demo.html"
     ]
   },
   {
