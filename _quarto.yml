@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Pesquisa Para Elas 2024"
@@ -27,7 +28,7 @@ website:
 format:
   html:
     theme: Materia
-    css: styles.css #Reference an external CSS file
+    css: style.css #Reference an external CSS file
 toc: true
 
 

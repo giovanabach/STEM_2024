@@ -66,51 +66,41 @@
     ]
   },
   {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
+    "objectID": "index.html#bem-vindas",
+    "href": "index.html#bem-vindas",
     "title": "Pesquisa Para Elas 2024",
     "section": "",
-    "text": "Course overview from STA 199: Introduction to Data Science at Duke University\nIntro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.",
+    "text": "Informações Gerais\nIntro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.",
     "crumbs": [
       "Página Inicial"
     ]
   },
   {
-    "objectID": "index.html#class-meetings",
-    "href": "index.html#class-meetings",
+    "objectID": "index.html#encontros-semanais-office-hours",
+    "href": "index.html#encontros-semanais-office-hours",
     "title": "Pesquisa Para Elas 2024",
-    "section": "Class meetings",
-    "text": "Class meetings\n\n\n\nMeeting\nLocation\nTime\n\n\n\n\nLecture\nRoom A\nMon & Wed 10 - 11:15am\n\n\nLab 01\nRoom B\nThu 10 - 11:15am\n\n\nLab 02\nRoom C\nThu 1:45 - 3pm\n\n\nLab 03\nRoom D\nThu 3:30 - 4:45pm",
+    "section": "Encontros semanais & Office Hours",
+    "text": "Encontros semanais & Office Hours\n\n\n\nTópico\nHorário e Data\n\n\n\n\nLecture\nRoom A\n\n\nLab 01\nRoom B",
     "crumbs": [
       "Página Inicial"
     ]
   },
   {
-    "objectID": "index.html#teaching-team",
-    "href": "index.html#teaching-team",
+    "objectID": "index.html#time",
+    "href": "index.html#time",
     "title": "Pesquisa Para Elas 2024",
-    "section": "Teaching team",
-    "text": "Teaching team\n\n\n\nName\nTime\n\n\n\n\nLecture\nMon & Wed 10 - 11:15am\n\n\nLab 01\nThu 10 - 11:15am\n\n\nLab 02\nThu 1:45 - 3pm\n\n\nLab 03\nThu 3:30 - 4:45pm\n\n\n\n\n\n\n\n\nName\nOffice hours\nLocation\n\n\n\n\nInstructor\nTue 2 - 3pm\nOffice 123\n\n\nTeaching Assistant 1\nMon 5 - 7pm\nZoom\n\n\nTeaching Assistant 2\nFri 11am - 1pm\nZoom",
+    "section": "Time",
+    "text": "Time\n\n\n\nNome\nContato\n\n\n\n\nLecture\nMon & Wed 10 - 11:15am\n\n\nLab 01\nThu 10 - 11:15am\n\n\nLab 02\nThu 1:45 - 3pm\n\n\nLab 03\nThu 3:30 - 4:45pm",
     "crumbs": [
       "Página Inicial"
     ]
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Excerpts of Fall 2021 syllabus from STA 199: Introduction to Data Science at Duke University",
-    "crumbs": [
-      "Recursos"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-learning-objectives",
-    "href": "syllabus.html#course-learning-objectives",
-    "title": "Syllabus",
-    "section": "Course Learning Objectives",
-    "text": "Course Learning Objectives\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation",
+    "objectID": "syllabus.html#objetivos-do-programa",
+    "href": "syllabus.html#objetivos-do-programa",
+    "title": "Informações importantes",
+    "section": "Objetivos do programa",
+    "text": "Objetivos do programa\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation",
     "crumbs": [
       "Recursos"
     ]
@@ -309,65 +299,5 @@
     "title": "Welcome to Intro Data Science",
     "section": "Themes",
     "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\nCreate custom thing using Sass\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
-  },
-  {
-    "objectID": "index.html#bem-vindas-ao-pesquisa-para-elas-2024",
-    "href": "index.html#bem-vindas-ao-pesquisa-para-elas-2024",
-    "title": "Pesquisa Para Elas 2024",
-    "section": "",
-    "text": "Informações Gerais\nIntro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.",
-    "crumbs": [
-      "Página Inicial"
-    ]
-  },
-  {
-    "objectID": "index.html#encontros-semanais-office-hours",
-    "href": "index.html#encontros-semanais-office-hours",
-    "title": "Pesquisa Para Elas 2024",
-    "section": "Encontros semanais & Office Hours",
-    "text": "Encontros semanais & Office Hours\n\n\n\nTópico\nHorário e Data\n\n\n\n\nLecture\nRoom A\n\n\nLab 01\nRoom B",
-    "crumbs": [
-      "Página Inicial"
-    ]
-  },
-  {
-    "objectID": "index.html#equipe",
-    "href": "index.html#equipe",
-    "title": "Pesquisa Para Elas 2024",
-    "section": "Equipe",
-    "text": "Equipe\n\n\n\nNome\nContato\n\n\n\n\nLecture\nMon & Wed 10 - 11:15am\n\n\nLab 01\nThu 10 - 11:15am\n\n\nLab 02\nThu 1:45 - 3pm\n\n\nLab 03\nThu 3:30 - 4:45pm",
-    "crumbs": [
-      "Página Inicial"
-    ]
-  },
-  {
-    "objectID": "index.html#bem-vindas",
-    "href": "index.html#bem-vindas",
-    "title": "Pesquisa Para Elas 2024",
-    "section": "",
-    "text": "Informações Gerais\nIntro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.",
-    "crumbs": [
-      "Página Inicial"
-    ]
-  },
-  {
-    "objectID": "index.html#time",
-    "href": "index.html#time",
-    "title": "Pesquisa Para Elas 2024",
-    "section": "Time",
-    "text": "Time\n\n\n\nNome\nContato\n\n\n\n\nLecture\nMon & Wed 10 - 11:15am\n\n\nLab 01\nThu 10 - 11:15am\n\n\nLab 02\nThu 1:45 - 3pm\n\n\nLab 03\nThu 3:30 - 4:45pm",
-    "crumbs": [
-      "Página Inicial"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#objetivos-do-programa",
-    "href": "syllabus.html#objetivos-do-programa",
-    "title": "Informações importantes",
-    "section": "Objetivos do programa",
-    "text": "Objetivos do programa\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation",
-    "crumbs": [
-      "Recursos"
-    ]
   }
 ]

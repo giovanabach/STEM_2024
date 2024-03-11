@@ -2,33 +2,34 @@
 title: "Pesquisa Para Elas 2024"
 ---
 
-## Bem-vindas!
+## Informações Gerais
 
-**Informações Gerais**
+**Bem-vindas 💜**
 
-Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.
+Seja muito bem-vinda ao Pesquisa Para Elas 2024! Estamos empolgadas por ter você conosco durante as próximas 15 semanas, onde embarcaremos juntas em uma jornada empolgante na metodologia de pesquisa.
 
-## Encontros semanais & Office Hours
+Durante este programa, você encontrará tarefas semanais cuidadosamente planejadas para aprimorar suas habilidades e compreensão. Nosso compromisso não é apenas fornecer conhecimento, mas também criar um espaço colaborativo para o aprendizado. A cada 15 dias, nos reuniremos para discutir os tópicos estudados e compartilhar experiências!
 
-| Tópico  | Horário e Data | 
-|---------|----------------|
-| Lecture | Room A         | 
-| Lab 01  | Room B         | 
+Estamos aqui para apoiar seu crescimento acadêmico e profissional. Sinta-se à vontade para explorar, questionar e interagir. Mal podemos esperar para começar esta jornada enriquecedora junto com você! 
 
-## Time
+## Encontros Semanais
 
-```{r, results='asis', echo=FALSE}
+| Tópico               | Horário        | 
+|----------------------|----------------|
+| Encontro Quinzenal   | Quinta 18h     | 
+| Plantão de Dúvidas   | Sábado 17h     | 
+| Workshops            |     TBD
 
-library(knitr)
 
-# Data for the table with links
-data <- data.frame(
-  Meeting = c("Lecture", "Lab 01", "Lab 02", "Lab 03"),
-  Time = c("Mon & Wed 10 - 11:15am", "Thu 10 - 11:15am", "Thu 1:45 - 3pm", "Thu 3:30 - 4:45pm")
-)
+# Time Pesquisa para Elas
 
-# Print the table
-kable(data, format = "html", table.attr = 'class="table table-bordered table-condensed"', escape = FALSE, col.names = c("Nome", "Contato"))
+Na tabela abaixo, você encontrará informações sobre o time completo do Pesquisa para Elas, incluindo seus nomes, cargos e informações de contato. Sintam-se à vontade para entrar em contato conosco em caso de dúvidas, para obter orientação ou para discutir qualquer assunto relacionado ao projeto. Estamos aqui para ajudar e contribuir para o seu sucesso no processo científico!
 
-```
+| Nome            | Cargo                | Contato               |
+|-----------------|----------------------|-----------------------|
+| João Silva      | Analista de Dados    | joao@email.com       |
+| Maria Oliveira  | Designer Gráfico      | maria@email.com      |
+| Carlos Souza    | Engenheiro de Software| carlos@email.com     |
+
+
 
