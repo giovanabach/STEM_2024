@@ -16,20 +16,23 @@ Estamos aqui para apoiar seu crescimento acadêmico e profissional. Sinta-se à 
 
 | Tópico               | Horário        | 
 |----------------------|----------------|
-| Encontro Quinzenal   | Quinta 18h     | 
-| Plantão de Dúvidas   | Sábado 17h     | 
-| Workshops            |     TBD
+| Encontro Quinzenal   | Quinta - 18h   | 
+| Plantão de Dúvidas   | Sábado - 17h   | 
+| Workshops            |     TBD        | 
 
 
 # Time Pesquisa para Elas
 
 Na tabela abaixo, você encontrará informações sobre o time completo do Pesquisa para Elas, incluindo seus nomes, cargos e informações de contato. Sintam-se à vontade para entrar em contato conosco em caso de dúvidas, para obter orientação ou para discutir qualquer assunto relacionado ao projeto. Estamos aqui para ajudar e contribuir para o seu sucesso no processo científico!
 
-| Nome            | Cargo                | Contato               |
-|-----------------|----------------------|-----------------------|
-| João Silva      | Analista de Dados    | joao@email.com       |
-| Maria Oliveira  | Designer Gráfico      | maria@email.com      |
-| Carlos Souza    | Engenheiro de Software| carlos@email.com     |
+| Nome              | Cargo                             | Contato                        |
+|-----------------  |----------------------             |-----------------------         |
+| Giovana Bachmann  | Coordenadora Pesquisa para Elas   | giovanabachmann@gmail.com      |
+| Yasmim Costa      | Diretora Impacto Direto           | yasmimmelissa73@gmail.com      |
+| Anne Dornelas     | Vice-Diretora Impacto Direto      | anne.dornela@hotmail.com       |
+| Alessandra Buffon | Analista                          | alessandradbuffon@gmail.com     |
+| Fabiana Cardoso   | Analista                          | fabicardoso19ufpa@gmail.com     |
+| Isabelly Maia     | Analista                          | mmontalvao.isabelly@gmail.com     |
 
 
 
