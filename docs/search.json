@@ -90,9 +90,9 @@
     "href": "syllabus.html#objetivos-do-programa",
     "title": "Informações importantes",
     "section": "Objetivos do programa",
-    "text": "Objetivos do programa\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation",
+    "text": "Objetivos do programa\nAo final das 15 semanas do Pesquisa para Elas, você irá…\n\nDesenvolver habilidades para compreender e aplicar a abordagem sistemática da metodologia científica em suas pesquisas, incluindo a formulação de questões, definição de hipóteses e seleção de métodos apropriados.\nAdquirir experiência prática em diferentes fases da pesquisa, desde a coleta até a análise de dados, passando pela manipulação eficaz de informações, realização de análise exploratória e utilização de modelagem preditiva.\nAprender a comunicar de maneira clara e eficaz os resultados de suas pesquisas, seja por meio de trabalhos escritos que seguem padrões acadêmicos ou na apresentação do projeto final de forma coesa e acessível.",
     "crumbs": [
-      "Recursos"
+      "Informações importantes"
     ]
   },
   {
@@ -289,5 +289,35 @@
     "title": "Welcome to Intro Data Science",
     "section": "Themes",
     "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\nCreate custom thing using Sass\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
+  },
+  {
+    "objectID": "syllabus.html#recursos",
+    "href": "syllabus.html#recursos",
+    "title": "Informações importantes",
+    "section": "Recursos",
+    "text": "Recursos\n\nCommunicação\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.",
+    "crumbs": [
+      "Informações importantes"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#tarefas-semanais",
+    "href": "syllabus.html#tarefas-semanais",
+    "title": "Informações importantes",
+    "section": "Tarefas semanais",
+    "text": "Tarefas semanais\n\nMentoria\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nSimpósio\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question.\n\n\nAtrasos e ausencias\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.\n\n\nDesligamento do programa",
+    "crumbs": [
+      "Informações importantes"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#datas-importantes",
+    "href": "syllabus.html#datas-importantes",
+    "title": "Informações importantes",
+    "section": "Datas Importantes",
+    "text": "Datas Importantes\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams",
+    "crumbs": [
+      "Informações importantes"
+    ]
   }
 ]

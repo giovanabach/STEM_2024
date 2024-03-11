@@ -21,7 +21,7 @@ website:
       - href: index.qmd
         text: Página Inicial
       - href: syllabus.qmd
-        text: Recursos
+        text: Informações importantes
       - href: schedule.qmd
         text: Cronograma
         
