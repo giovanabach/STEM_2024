@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pesquisa Para Elas 2024 - Schedule</title>
+<title>Pesquisa Para Elas 2024 - Cronograma Semanal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="./syllabus.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,65 +66,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-schedule .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-schedule'] = new List('listing-schedule', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -156,9 +97,10 @@ window.Quarto = {
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logopesquisa.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main">
-    <a href="https://github.com/rstudio-conf-2022/teach-ds-course-website" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
-    <a href="https://rstudio.cloud/spaces/237799" title="RStudio Cloud" class="quarto-navigation-tool px-1" aria-label="RStudio Cloud"><i class="bi bi-cloud-fill"></i></a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/rstudio-conf-2022/teach-ds-course-website" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-chat-dots-fill"></i></a>
+    <a href="https://rstudio.cloud/spaces/237799" title="Google Classroom" class="quarto-navigation-tool px-1" aria-label="Google Classroom"><i class="bi bi-check-square-fill"></i></a>
+    <a href="https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b5b29027-7084-40bf-9a2f-b0cf0100bb98" title="Gravações" class="quarto-navigation-tool px-1" aria-label="Gravações"><i class="bi bi-camera-reels-fill"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -177,7 +119,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Informações importantes</span></a>
+ <span class="menu-text">Organização</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -196,13 +138,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#weekly-schedule" id="toc-weekly-schedule" class="nav-link active" data-scroll-target="#weekly-schedule">Weekly schedule</a></li>
-  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a>
-  <ul class="collapse">
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
-  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
-  <li><a href="#exams" id="toc-exams" class="nav-link" data-scroll-target="#exams">Exams</a></li>
-  </ul></li>
+  <li><a href="#encontros-quinzenais" id="toc-encontros-quinzenais" class="nav-link active" data-scroll-target="#encontros-quinzenais">Encontros Quinzenais</a></li>
+  <li><a href="#tarefas" id="toc-tarefas" class="nav-link" data-scroll-target="#tarefas">Tarefas</a></li>
+  <li><a href="#workshops" id="toc-workshops" class="nav-link" data-scroll-target="#workshops">Workshops</a></li>
   </ul>
 </nav>
     </div>
@@ -211,7 +149,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Cronograma Semanal</h1>
 </div>
 
 
@@ -228,77 +166,956 @@ window.Quarto = {
 </header>
 
 
-<section id="weekly-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-schedule">Weekly schedule</h2>
-<div id="listing-schedule" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
+<p>Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas a serem realizadas ao longo das 15 semanas do Pesquisa pra Elas. Alguns materiais serão atualizados ao longo do projeto, então podem não estar disponíveis no momento.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="oskkpowgmb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#oskkpowgmb table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#oskkpowgmb thead, #oskkpowgmb tbody, #oskkpowgmb tfoot, #oskkpowgmb tr, #oskkpowgmb td, #oskkpowgmb th {
+  border-style: none;
+}
+
+#oskkpowgmb p {
+  margin: 0;
+  padding: 0;
+}
+
+#oskkpowgmb .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#oskkpowgmb .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#oskkpowgmb .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#oskkpowgmb .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#oskkpowgmb .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#oskkpowgmb .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#oskkpowgmb .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#oskkpowgmb .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#oskkpowgmb .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#oskkpowgmb .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#oskkpowgmb .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#oskkpowgmb .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#oskkpowgmb .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#oskkpowgmb .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#oskkpowgmb .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oskkpowgmb .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#oskkpowgmb .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#oskkpowgmb .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#oskkpowgmb .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oskkpowgmb .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#oskkpowgmb .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oskkpowgmb .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#oskkpowgmb .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oskkpowgmb .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#oskkpowgmb .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oskkpowgmb .gt_left {
+  text-align: left;
+}
+
+#oskkpowgmb .gt_center {
+  text-align: center;
+}
+
+#oskkpowgmb .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#oskkpowgmb .gt_font_normal {
+  font-weight: normal;
+}
+
+#oskkpowgmb .gt_font_bold {
+  font-weight: bold;
+}
+
+#oskkpowgmb .gt_font_italic {
+  font-style: italic;
+}
+
+#oskkpowgmb .gt_super {
+  font-size: 65%;
+}
+
+#oskkpowgmb .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#oskkpowgmb .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#oskkpowgmb .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#oskkpowgmb .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#oskkpowgmb .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#oskkpowgmb .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#oskkpowgmb .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <thead>
-<tr>
-<th>
-Week
-</th>
-<th>
-Dates
-</th>
-<th>
-Topic
-</th>
+<tr class="header gt_col_headings">
+<th id="<strong>WEEK</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>WEEK</strong></th>
+<th id="<strong>DATE</strong>" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col"><strong>DATE</strong></th>
+<th id="<strong>PREPARE</strong>" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>PREPARE</strong></th>
+<th id="<strong>TOPIC</strong>" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>TOPIC</strong></th>
+<th id="<strong>MATERIALS</strong>" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>MATERIALS</strong></th>
+<th id="<strong>DUE</strong>" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>DUE</strong></th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1709929772295" data-listing-reading-time-sort="2" data-listing-word-count-sort="246" data-listing-title-sort="Week 01" data-listing-filename-sort="week-01.qmd">
-<td>
-<a href="./weeks/week-01.html" class="title listing-title">Week 01</a>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">1</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Wed, Jan 10</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
 </td>
-<td>
-<span class="listing-description">Aug 29 - Sep 02</span>
-</td>
-<td>
-<span class="listing-subtitle">Welcome to Intro Data Science</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1709929772295" data-listing-reading-time-sort="1" data-listing-word-count-sort="39" data-listing-title-sort="Week 02" data-listing-filename-sort="week-02.qmd">
-<td>
-<a href="./weeks/week-02.html" class="title listing-title">Week 02</a>
-</td>
-<td>
-<span class="listing-description">Sep 05 - 09</span>
-</td>
-<td>
-<span class="listing-subtitle">Visualizing Data</span>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 0: Hello, World and STA 199!</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-0.html">lab 0</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1709929772295" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-title-sort="Week 03" data-listing-filename-sort="week-03.qmd">
-<td>
-<a href="./weeks/week-03.html" class="title listing-title">Week 03</a>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
 </td>
-<td>
-<span class="listing-description">Sep 12 - 16</span>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Jan 11</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
 </td>
-<td>
-<span class="listing-subtitle">Wrangling Data</span>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Welcome to STA 199</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/00-welcome-199.html">slides 00</a> <br> ⌨️ <a href="./ae/ae-00-unvotes.html">ae 00</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">2</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Jan 15</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p><em>No lab - Martin Luther King Jr.&nbsp;Day holiday</em></p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Jan 16</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📗 <a href="https://r4ds.hadley.nz/intro.html">r4ds - intro</a> <br> 📘 <a href="https://openintro-ims2.netlify.app/01-data-hello">ims - chp 1</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Meet the toolkit</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/01-meet-the-toolkit.html">slides 01</a> <br> ⌨️ <a href="./ae/ae-01-meet-the-penguins.html">ae 01</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Jan 18</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📗 <a href="https://r4ds.hadley.nz/data-visualize">r4ds - chp 1</a> <br> 🎥 <a href="https://youtu.be/FddF4b_GuTI">Data and visualization</a> <br> 🎥 <a href="https://youtu.be/s2NF2J36ljE">Visualising data with ggplot2</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Grammar of graphics</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/02-grammar-of-graphics.html">slides 02</a> <br> ⌨️ <a href="./ae/ae-02-bechdel-dataviz.html">ae 02</a> <br> ✅ <a href="./ae/ae-02-bechdel-dataviz-A.html">ae 02</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">3</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Jan 22</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📗 <a href="https://r4ds.hadley.nz/workflow-basics">r4ds - chp 2</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 1: Data visualization</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-1.html">lab 1</a> <br> ✅ <a href="https://canvas.duke.edu/courses/26106/files?preview=852923">lab 1</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Jan 23</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📘 <a href="https://openintro-ims2.netlify.app/04-explore-categorical">ims - chp 4</a> <br> 📘 <a href="https://openintro-ims2.netlify.app/05-explore-numerical">ims - chp 5</a> <br> 🎥 <a href="https://youtu.be/waBabVTI8ec">Visualizing numerical data</a> <br> 🎥 <a href="https://youtu.be/21h3rEO8k2E">Visualizing categorical data</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Visualizing various types of data</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/03-visualizing-data.html">slides 03</a> <br> ⌨️ <a href="./ae/ae-02-bechdel-dataviz.html">ae 02</a> (cont.) <br> ✅ <a href="./ae/ae-02-bechdel-dataviz-A.html">ae 02</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Jan 25</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📘 <a href="https://openintro-ims2.netlify.app/06-explore-applications">ims - chp 6</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Data visualization overview</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/04-dataviz-overview.html">slides 04</a> <br> ⌨️ <a href="./ae/ae-03-duke-forest.html">ae 03</a> <br> ✅ <a href="./ae/ae-03-duke-forest-A.html">ae 03</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">4</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Jan 29</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/ZCaYBES_VEk">Grammar of data wrangling</a> <br> 📗 <a href="https://r4ds.hadley.nz/data-transform">r4ds - chp 3.1-3.5</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 2: Data wrangling</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-2.html">lab 2</a> <br> ✅ <a href="https://canvas.duke.edu/courses/26106/files?preview=903199">lab 2</a></p></td>
+<td class="gt_row gt_left" headers="due"><p>Lab 1 at 8 am</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Jan 30</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/0229Uq2hkJo">Working with a single data frame</a> <br> 📗 <a href="https://r4ds.hadley.nz/data-transform">r4ds - chp 3.6-3.7</a> <br> 📗 <a href="https://r4ds.hadley.nz/workflow-style">r4ds - chp 4</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Grammar of data wrangling</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/05-grammar-of-data-wrangling.html">slides 05</a> <br> ⌨️ <a href="./ae/ae-04-flights-wrangling.html">ae 04</a> <br> ✅ <a href="./ae/ae-04-flights-wrangling-A.html">ae 04</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Feb 1</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/x3KM5uxaFdI">Tidying data</a> <br> 📗 <a href="https://r4ds.hadley.nz/data-tidy">r4ds - chp 5</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Tidying data</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/06-tidying-data.html">slides 06</a> <br> ⌨️ <a href="./ae/ae-05-majors-tidying.html">ae 05</a> <br> ✅ <a href="./ae/ae-05-majors-tidying-A.html">ae 05</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">5</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Feb 5</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/VdV5ABsaf5Y">Working with multiple data frames</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 3: Data tidying and joining</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-3.html">lab 3</a> <br> ✅ <a href="https://canvas.duke.edu/courses/26106/files?preview=933311">lab 3</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p>Lab 2 at 8 am</p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Feb 6</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📗 <a href="https://r4ds.hadley.nz/joins">r4ds - chp 19.1-19.3</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Joining data</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/07-joining-data.html">slides 07</a> <br> ⌨️ <a href="./ae/ae-06-population-joining.html">ae 06</a> <br> ✅ <a href="./ae/ae-06-population-joining-A.html">ae 06</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Feb 8</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/WsxLbtWbEfc">Data types</a> <br> 🎥 <a href="https://youtu.be/dozvSVQcqqg">Data classes</a> <br> 📗 <a href="https://r4ds.hadley.nz/factors">r4ds - chp 16</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Data types and classes</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/08-data-types-classes.html">slides 08</a> <br> ⌨️ <a href="./ae/ae-07-population-types.html">ae 07</a> <br> ✅ <a href="./ae/ae-07-population-types-A.html">ae 07</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">6</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Feb 12</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Work on Exam 1 Review</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📝 <a href="./exam-review/exam-1-review.html">exam 1 review</a> <br> ✅ <a href="./exam-review/exam-1-review-A.html">exam 1 review</a></p></td>
+<td class="gt_row gt_left" headers="due"><p>Lab 3 at 8 am</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Feb 13</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Exam 1 Review</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/09-exam-1-review.html">slides 09</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Feb 15</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p><strong>Exam 1 - In-class + take-home released</strong></p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">7</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Feb 19</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Project milestone 1 - Working collaboratively</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📓 <a href="./project/1-working-collaboratively.html">project milestone 1</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p><strong>Exam 1 take-home at 8 am</strong></p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Feb 20</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/tIMaRYiuEFA">Importing data</a> <br> 🎥 <a href="https://youtu.be/O8qxV3N4D5Q">Recoding data</a> <br> 📗 <a href="https://r4ds.hadley.nz/data-import.html">r4ds - chp 7</a> <br> 📗 <a href="https://r4ds.hadley.nz/datetimes.html">r4ds - chp 17.1 - 17.3</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Importing and recoding data</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/10-importing-recoding-data.html">slides 10</a> <br> ⌨️ <a href="./ae/ae-08-data-import.html">ae 08</a> <br> ✅ <a href="./ae/ae-08-data-import-A.html">ae 08</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Feb 22</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/99Hkmfb2i80">Web scraping</a> <br> 🎥 <a href="https://youtu.be/YmKULNLsDsU">Scraping top 250 movies on IMDB</a> <br> 🎥 <a href="https://youtu.be/LONRJHMvSyU">Web scraping considerations</a> <br> 📗 <a href="https://r4ds.hadley.nz/webscraping">r4ds - chp 24.1 - 24.6</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Web scraping</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/11-web-scraping.html">slides 11</a> <br> ⌨️ <a href="./ae/ae-09-chronicle-scrape.html">ae 09</a> <br> ⌨️ <a href="https://github.com/sta199-s24/sta199-s24.github.io/blob/main/ae/_chronicle-scrape.R">ae 09</a> <br> ✅ <a href="https://github.com/sta199-s24/sta199-s24.github.io/blob/main/ae/_chronicle-scrape-A.R">ae 09</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">8</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Feb 26</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 4: Web scraping and ethics</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-4.html">lab 4</a></p></td>
+<td class="gt_row gt_left" headers="due"><p>Project milestone 1 at 8 am</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Feb 27</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/6KWlPhPMluE">Functions</a> <br> 🎥 <a href="https://youtu.be/x3UMny1fQhc">Iteration</a> 📗 <a href="https://r4ds.hadley.nz/functions">r4ds - chp 25.1 - 25.2</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Working with Chat GPT</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/12-chat-gpt.html">slides 12</a> <br> ⌨️ <a href="./ae/ae-09-chronicle-scrape.html">ae 09</a> <br> ✅ <a href="./ae/ae-09-chronicle-scrape-A.html">ae 09</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Feb 29</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/C_-rTKfswUI">Misrepresentation</a> <br> 🎥 <a href="https://youtu.be/c4fvdoNbcSw">Data privacy</a> <br> 🎥 <a href="https://youtu.be/E2eD72pwtps">Algorithmic bias</a> <br> 📕 <a href="https://mdsr-book.github.io/mdsr2e/ch-ethics.html">mdsr - chp 8</a> <br> 🎥 <a href="https://youtu.be/Low28hx4wyk">Alberto Cairo - How charts lie</a> <br> 🎥 <a href="https://youtu.be/UG_X_7g63rY">Joy Buolamwini - How I’m fighting bias in algorithms</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Data science ethics</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/13-ethics.html">slides 13</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">9</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Mar 4</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 5: Topic TBA</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-5.html">lab 5</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p>Lab 4 at 8 am</p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Mar 5</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/MWkkvDopBKc">The language of models</a> <br> 📘 <a href="https://openintro-ims2.netlify.app/07-model-slr">ims - chp 7.1</a></p></td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>The language of models</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/14-language-of-models.html">slides 14</a> <br> ⌨️ <a href="./ae/ae-10-modeling-fish.html">ae 10</a> <br> ✅ <a href="./ae/ae-10-modeling-fish-A.html">ae 10</a></p></td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Mar 7</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🎥 <a href="https://youtu.be/69U92Q3pwnA">Fitting and interpreting models</a> <br> 🎥 <a href="https://youtu.be/j4MZ6ZdHnHg">Modeling nonlinear relationships</a> <br> 📘 <a href="https://openintro-ims2.netlify.app/07-model-slr#sec-least-squares-regression">ims - chp 7.2</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Linear regression with a single predictor</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🖥️ <a href="./slides/15-linear-model-single-predictor.html">slides 15</a> <br> ⌨️ <a href="./ae/ae-11-modeling-penguins.html">ae 11</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">10</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Mar 11</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🌴 <em>No lab - Spring Break</em></p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Mar 12</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🌴 <em>No lecture - Spring Break</em></p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Mar 14</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>🌴 <em>No lecture - Spring Break</em></p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">11</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Mar 18</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Project milestone 2 - Project proposals</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📓 <a href="./project/2-proposal.html">project milestone 2</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p>Lab 5 at 8 am</p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Mar 19</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Linear regression with multiple predictors</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Mar 21</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Overfitting and other concerns</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">12</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Mar 25</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 6: Topic TBA</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-6.html">lab 6</a></p></td>
+<td class="gt_row gt_left" headers="due"><p>Project milestone 2 at 8 am</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Mar 26</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Logistic regression</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Mar 28</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Modeling overview</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">13</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Apr 1</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Lab 7: Topic TBA</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>💻 <a href="./labs/lab-7.html">lab 7</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p>Lab 6 at 8 am</p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Apr 2</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Quantifying uncertainty with bootstrap intervals</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Apr 4</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Making decisions with randomization tests</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">14</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Apr 8</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Work on Exam 2 Review</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><p>Lab 7 at 8 am</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Apr 9</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Exam 2 Review</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Apr 11</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p><strong>Exam 2 - In-class + take-home released</strong></p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week">15</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Apr 15</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Project milestone 3 - Peer review</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📓 <a href="./project/3-peer-review.html">project milestone 3</a></p></td>
+<td class="gt_row gt_left gt_striped" headers="due"><p><strong>Exam 2 take-home at 8 am</strong> <br> Project milestone 3 at the end of lab session</p></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week"><br>
+</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Apr 16</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Communicating data science results effectively</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="due"><br>
+</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Thu, Apr 18</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Customizing Quarto reports and presentations</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
+</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_center" headers="week">16</td>
+<td class="gt_row gt_right" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Mon, Apr 22</td>
+<td class="gt_row gt_left" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Project milestone 4 - Project presentations</p></td>
+<td class="gt_row gt_left" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>📓 <a href="./project/4-writeup-presentation.html">project milestone 4</a></p></td>
+<td class="gt_row gt_left" headers="due"><p>Project presentations + writeup at the beginning of lab session</p></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_center gt_striped" headers="week"><br>
+</td>
+<td class="gt_row gt_right gt_striped" headers="date" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3">Tue, Apr 23</td>
+<td class="gt_row gt_left gt_striped" headers="prepare" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="topic" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><p>Looking further: Topic TBA</p></td>
+<td class="gt_row gt_left gt_striped" headers="materials" style="border-right-width: 1px; border-right-style: solid; border-right-color: #D3D3D3"><br>
+</td>
+<td class="gt_row gt_left gt_striped" headers="due"><br>
 </td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-No matching items
+
 </div>
 </div>
-</section>
-<section id="assignments" class="level2">
-<h2 class="anchored" data-anchor-id="assignments">Assignments</h2>
-<p>Below are assignment due dates for the semester. You can find details and assignment instructions in the relevant week on the schedule.</p>
-<section id="homework" class="level3">
-<h3 class="anchored" data-anchor-id="homework">Homework</h3>
+</div>
+<section id="encontros-quinzenais" class="level3">
+<h3 class="anchored" data-anchor-id="encontros-quinzenais">Encontros Quinzenais</h3>
 <p>Homework will be due on Wednesdays at 11:59pm. You will have one week to complete each homework assignment.</p>
 </section>
-<section id="labs" class="level3">
-<h3 class="anchored" data-anchor-id="labs">Labs</h3>
+<section id="tarefas" class="level3">
+<h3 class="anchored" data-anchor-id="tarefas">Tarefas</h3>
 <p>Labs will be due on Fridays at 11:59pm. You will start the lab during your scheduled lab section.</p>
 </section>
-<section id="exams" class="level3">
-<h3 class="anchored" data-anchor-id="exams">Exams</h3>
+<section id="workshops" class="level3">
+<h3 class="anchored" data-anchor-id="workshops">Workshops</h3>
 <p>There will be two exams on the dates:</p>
 <ul>
 <li><p>October 12, 9am - October 14, 11:59pm</p></li>
@@ -306,8 +1123,6 @@ No matching items
 </ul>
 
 
-
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -693,7 +1508,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./syllabus.html" class="pagination-link  aria-label=" organização"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Organização</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2024, Giovana Bachmann</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
 
 
 
