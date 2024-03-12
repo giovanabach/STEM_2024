@@ -1,5 +1,6 @@
 ---
 title: "Pesquisa Para Elas 2024"
+
 ---
 
 ## Informações Gerais
@@ -24,6 +25,7 @@ Estamos aqui para apoiar seu crescimento acadêmico e profissional. Sinta-se à 
 # Time Pesquisa para Elas
 
 Na tabela abaixo, você encontrará informações sobre o time completo do Pesquisa para Elas, incluindo seus nomes, cargos e informações de contato. Sintam-se à vontade para entrar em contato conosco em caso de dúvidas, para obter orientação ou para discutir qualquer assunto relacionado ao projeto. Estamos aqui para ajudar e contribuir para o seu sucesso no processo científico!
+
 
 | Nome              | Cargo                             | Contato                        |
 |-----------------  |----------------------             |-----------------------         |
