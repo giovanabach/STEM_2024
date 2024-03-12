@@ -4,8 +4,10 @@ project:
 
 website:
   title: "Pesquisa Para Elas 2024"
+  
+  
   sidebar:
-    background: purple
+    background: "#7D26CD" 
     logo: "images/logopesquisa.png"
     pinned: true
     align: center
@@ -25,6 +27,11 @@ website:
       - href: schedule.qmd
         text: Cronograma
         
+  page-footer:
+    right: 'This page is built with [Quarto](https://quarto.org/).'
+    left: "&copy; Copyright 2024, Giovana Bachmann"
+    background: "#7D26CD" 
+
 format:
   html:
     theme: Materia
