@@ -1,31 +1,16 @@
 /* styles.css */
 
+.sidebar {
+  background-color: green; /* Change the background color as needed */
+}
+
 .sidebar-tool-icon {
-  color: purple;  /* Set the color of the icons to white */
+  color: white;  /* Set the color of the icons to white */
 }
 
 .sidebar-logo img {
-  max-width: 150px;  /* Adjust the maximum width of the logo */
+  max-width: 500px;  /* Adjust the maximum width of the logo */
   height: auto;  /* Maintain the aspect ratio */
 }
 
-.circular-image {
-  border-radius: 50%;
-  max-width: 100%;
-}
 
-.member-container {
-  display: flex;
-  margin-bottom: 20px;
-}
-
-.image-container {
-  flex: 0 0 auto;
-  margin-right: 20px;
-}
-
-.info-container {
-  flex: 1;
-}
-
-/* Add additional styling as needed */

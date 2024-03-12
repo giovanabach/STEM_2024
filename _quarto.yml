@@ -6,7 +6,7 @@ website:
   title: "Pesquisa Para Elas 2024"
   sidebar:
     background: purple
-    logo: "images/logostem.png"
+    logo: "images/logopesquisa.png"
     pinned: true
     align: center
     tools:
@@ -21,7 +21,7 @@ website:
       - href: index.qmd
         text: Página Inicial
       - href: syllabus.qmd
-        text: Informações importantes
+        text: Organização
       - href: schedule.qmd
         text: Cronograma
         

@@ -92,67 +92,37 @@
     "section": "Objetivos do programa",
     "text": "Objetivos do programa\nAo final das 15 semanas do Pesquisa para Elas, você irá…\n\nDesenvolver habilidades para compreender e aplicar a abordagem sistemática da metodologia científica em suas pesquisas, incluindo a formulação de questões, definição de hipóteses e seleção de métodos apropriados.\nAdquirir experiência prática em diferentes fases da pesquisa, desde a coleta até a análise de dados, passando pela manipulação eficaz de informações, realização de análise exploratória e utilização de modelagem preditiva.\nAprender a comunicar de maneira clara e eficaz os resultados de suas pesquisas, seja por meio de trabalhos escritos que seguem padrões acadêmicos ou na apresentação do projeto final de forma coesa e acessível.",
     "crumbs": [
-      "Informações importantes"
+      "Organização"
     ]
   },
   {
-    "objectID": "syllabus.html#textbooks",
-    "href": "syllabus.html#textbooks",
+    "objectID": "syllabus.html#recursos",
+    "href": "syllabus.html#recursos",
     "title": "Informações importantes",
-    "section": "Textbooks",
-    "text": "Textbooks\nAll books are freely available online. Hardcopies are also available for purchase.\n\n\n\nR for Data Science\nGrolemund, Wickham\nO’Reilly, 1st edition, 2016\n\n\nIntroduction to Modern Statistics\nÇetinkaya-Rundel, Hardin\nOpenIntro Inc., 1st Edition, 2021",
+    "section": "Recursos",
+    "text": "Recursos\n\nCommunicação\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.",
     "crumbs": [
-      "Recursos"
+      "Organização"
     ]
   },
   {
-    "objectID": "syllabus.html#course-community",
-    "href": "syllabus.html#course-community",
+    "objectID": "syllabus.html#tarefas-semanais",
+    "href": "syllabus.html#tarefas-semanais",
     "title": "Informações importantes",
-    "section": "Course community",
-    "text": "Course community\n\nInclusive community\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity and in alignment with Duke’s Commitment to Diversity and Inclusion. Your suggestions are encouraged and appreciated.\n\n\nAccessibility\nIf there is any portion of the course that is not accessible to you due to challenges with technology or the course format, please let me know so we can make appropriate accommodations.\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances.\n\n\nCommunication\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.",
+    "section": "Tarefas semanais",
+    "text": "Tarefas semanais\n\nMentoria\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nSimpósio\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question.\n\n\nAtrasos e ausencias\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.\n\n\nDesligamento do programa",
     "crumbs": [
-      "Recursos"
+      "Organização"
     ]
   },
   {
-    "objectID": "syllabus.html#activities-assessment",
-    "href": "syllabus.html#activities-assessment",
+    "objectID": "syllabus.html#datas-importantes",
+    "href": "syllabus.html#datas-importantes",
     "title": "Informações importantes",
-    "section": "Activities & Assessment",
-    "text": "Activities & Assessment\n\nLabs\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nHomework\nIn homework, you will apply what you’ve learned during lecture and lab to complete data analysis tasks.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nFinal Project\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question.",
+    "section": "Datas Importantes",
+    "text": "Datas Importantes\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams",
     "crumbs": [
-      "Recursos"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#grading",
-    "href": "syllabus.html#grading",
-    "title": "Informações importantes",
-    "section": "Grading",
-    "text": "Grading",
-    "crumbs": [
-      "Recursos"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-policies",
-    "href": "syllabus.html#course-policies",
-    "title": "Informações importantes",
-    "section": "Course policies",
-    "text": "Course policies\n\nAcademic honesty\nTL;DR: Don’t cheat!\nPlease abide by the following as you work on assignments in this course:\n\nYou may discuss individual homework and lab assignments with other students; however, you may not directly share (or copy) code or write up with other students. For team assignments, you may collaborate freely within your team. You may discuss the assignment with other teams; however, you may not directly share (or copy) code or write up with another team. Unauthorized sharing (or copying) of the code or write up will be considered a violation for all students involved.\nYou may not discuss or otherwise work with others on the exams.\nReusing code: Unless explicitly stated otherwise, you may make use of online resources (e.g. StackOverflow) for coding examples on assignments. If you directly use code from an outside source (or use it as inspiration), you must explicitly cite where you obtained the code. Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.\n\n\n\nLate work & extensions\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.",
-    "crumbs": [
-      "Recursos"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#important-dates",
-    "href": "syllabus.html#important-dates",
-    "title": "Informações importantes",
-    "section": "Important dates",
-    "text": "Important dates\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams",
-    "crumbs": [
-      "Recursos"
+      "Organização"
     ]
   },
   {
@@ -289,35 +259,5 @@
     "title": "Welcome to Intro Data Science",
     "section": "Themes",
     "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\nCreate custom thing using Sass\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
-  },
-  {
-    "objectID": "syllabus.html#recursos",
-    "href": "syllabus.html#recursos",
-    "title": "Informações importantes",
-    "section": "Recursos",
-    "text": "Recursos\n\nCommunicação\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.",
-    "crumbs": [
-      "Informações importantes"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#tarefas-semanais",
-    "href": "syllabus.html#tarefas-semanais",
-    "title": "Informações importantes",
-    "section": "Tarefas semanais",
-    "text": "Tarefas semanais\n\nMentoria\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nSimpósio\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question.\n\n\nAtrasos e ausencias\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.\n\n\nDesligamento do programa",
-    "crumbs": [
-      "Informações importantes"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#datas-importantes",
-    "href": "syllabus.html#datas-importantes",
-    "title": "Informações importantes",
-    "section": "Datas Importantes",
-    "text": "Datas Importantes\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams",
-    "crumbs": [
-      "Informações importantes"
-    ]
   }
 ]
