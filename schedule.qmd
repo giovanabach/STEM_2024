@@ -20,26 +20,14 @@ d <- read_sheet("https://docs.google.com/spreadsheets/d/1q1fzGwfRkSODzOrgc1a9pU8
 ```{r}
 #| echo: false
 
-d |>
-  filter(!is.na(session)) |>
-  select(-dow, -admin_notes, -number, -session) |>
-  mutate(date = as.Date(date)) |>
-  relocate(due, .after = materials) |>
-  gt() |>
-  fmt_date(date, date_style = 31) |>
-  sub_missing(columns = c(week, prepare, topic, materials, due), missing_text = "") |>
-  cols_align(
-    align = "center", 
-    columns = c(week)
-  ) |>
-  cols_align(
-    align = "right", 
-    columns = c(date)
-  ) |>
-  cols_align(
-    align = "left", 
-    columns = c(topic, prepare, materials, due)
-  ) |>
+library(dplyr)
+
+d %>%
+  filter(!is.na(Data)) %>%
+  select(-Dia) %>%
+  mutate(Data = as.Date(Data, format = "%B %d")) %>%
+  gt() %>%
+  fmt_date(Data, date_style = 31) %>%
   tab_style(
     style = cell_borders(
       sides = "right",
@@ -47,28 +35,30 @@ d |>
       style = "solid"
     ),
     locations = cells_body(
-      columns = c(date, topic, prepare, materials)
+      columns = c(Data, Assunto, Entenda, Explore)
     )
-  ) |>
+  ) %>%
   fmt_markdown(
-    columns = c(topic, prepare, materials, due)
-  ) |>
+    columns = c(Assunto, Entenda, Explore, Entregue)
+  ) %>%
   cols_width(
-    week ~ px(45),
-    date ~ px(100), 
-    prepare ~ px(200),
-    topic ~ px(250),
-    materials ~ px(150),
-    due ~ px(150)
-  ) |>
+    Semana ~ px(45),
+    Data ~ px(100), 
+    Entenda ~ px(200),
+    Assunto ~ px(250),
+    Explore ~ px(150),
+    Entregue ~ px(150)
+  ) %>%
   cols_label_with(fn = function(x) {
-      janitor::make_clean_names(x, case = "title") |>
-        toupper() |>
-        stringr::str_replace_all("^|$", "**") |>
-        md()
-    }) |>
-  tab_options(table.font.size = 13) |>
+    janitor::make_clean_names(x, case = "title") %>%
+      toupper() %>%
+      stringr::str_replace_all("^|$", "**") %>%
+      md()
+  }) %>%
+  tab_options(table.font.size = 13) %>%
   opt_row_striping()
+
+
 ```
 
 ### Encontros Quinzenais

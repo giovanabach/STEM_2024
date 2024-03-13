@@ -27,10 +27,10 @@ website:
     contents:
       - href: index.qmd
         text: Página Inicial
-      - href: syllabus.qmd
-        text: Organização
       - href: schedule.qmd
         text: Cronograma
+      - href: syllabus.qmd
+        text: Organização
         
   page-footer:
     right: 'This page is built with [Quarto](https://quarto.org/).'
