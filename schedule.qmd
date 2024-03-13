@@ -71,7 +71,7 @@ d |>
   opt_row_striping()
 ```
 
-### Encontros Quinzenais 
+### Encontros Quinzenais
 
 Homework will be due on Wednesdays at 11:59pm. You will have one week to complete each homework assignment.
 

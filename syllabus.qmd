@@ -1,10 +1,10 @@
 ---
 title: "Informações importantes"
+subtitle: "Recursos e Normas"
 ---
-
 <hr>
 
-## Objetivos do programa
+## Objetivos do Programa
 
 Ao final das 15 semanas do Pesquisa para Elas, você irá...
 
@@ -14,51 +14,30 @@ Ao final das 15 semanas do Pesquisa para Elas, você irá...
 
 - Aprender a comunicar de maneira clara e eficaz os resultados de suas pesquisas, seja por meio de trabalhos escritos que seguem padrões acadêmicos ou na apresentação do projeto final de forma coesa e acessível.
 
-## Recursos
+## Communicação & Recursos
 
-
-### Communicação
-
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.
-
-Announcements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.
+Durante o programa, usaremos o e-mail e os grupos de *WhatsApp* para comunicação, o *Zoom* para as reuniões semanais e o *Google Classroom* para a entrega das atividades. Além disso, aqui no website, você encontrará informações adicionais e links para materiais de apoio. Se tiver problemas para acessar algum dos aplicativos mencionados, entre em contato conosco o mais rápido possível. Quanto aos demais aplicativos de organização, fica a critério das mentoradas e mentoras.
 
 ## Tarefas semanais
 
+As tarefas semanais serão disponibilizadas no início da semana e devem ser entregues até as 23:59 da semana seguinte no Google Classroom, seguindo as instruções fornecidas. Fique à vontade para entrar em contato com o time do programa ou com sua mentora em caso de dúvidas ou se precisar de ajuda para compreender ou realizar alguma atividade específica. Estamos aqui para ajudá-lo com o que for necessário!
+
 ### Mentoria
 
-In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.
+Espera-se que você esteja em contato com sua mentora semanalmente. Ela está aqui para apoiá-lo em sua jornada científica, ajudá-lo no desenvolvimento do seu próprio projeto de pesquisa, esclarecer dúvidas e compartilhar experiências. A frequência de reuniões e as formas de organização e comunicação são decididas em conjunto, ficando a critério de ambas.
 
-### Exams
+### Atrasos & Ausências
 
-There will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you've learned in the course thus far.
-
-### Simpósio
-
-The purpose of the [final project](/project/) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question.
-
-### Atrasos e ausencias 
-
-The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.
+É importante que você participe de todas as atividades programadas, chegando pontualmente e se envolvendo ativamente. As datas de entrega das tarefas semanais e demais atividades do programa são estabelecidas para garantir que você possa obter o máximo benefício do programa e auxiliar no seu processo de aprendizagem da metodologia científica. Entendemos que imprevistos podem ocorrer, dificultando a entrega de alguma atividade dentro do prazo estabelecido. Em tais casos, por favor, entre em contato com a equipe do Pesquisa Para Elas. Estamos aqui para ajudá-la!
 
 ### Desligamento do programa
 
-
+O desligamento do programa poderá ocorrer se a participante não participar das atividades programadas e não entregar suas tarefas dentro dos prazos estabelecidos, sem justificativa. Mesmo após tentativas de contato por parte dos membros da equipe, se esse comportamento persistir, será necessário considerar essa medida. No entanto, reforçamos que estamos aqui para ajudar e compreendemos que imprevistos acontecem. Apenas solicitamos que comuniquem suas dificuldades para que possamos trabalhar juntos na busca por soluções adequadas!
 
 ## Datas Importantes
 
--   **Aug 23:** Classes begin
+-   **Maio 4:** Boas-vindas!
 
--   **Sep 3**: Drop/add ends
+-   **Agosto 17**: Entrega do Plano de Pesquisa
 
--   **Oct 4-5**: Fall break
-
--   **Nov 5**: Last day to withdraw with W
-
--   **Nov 24-26:** Thanksgiving recess
-
--   **Dec 3**: Classes end
-
--   **Dec 4-7**: Reading period
-
--   **Dec 8-13**: Final exams
+-   **Agosto 17-18**: Simpósio
