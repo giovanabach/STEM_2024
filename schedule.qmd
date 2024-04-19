@@ -4,75 +4,25 @@ title: "Cronograma Semanal"
 
 Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas a serem realizadas ao longo das 15 semanas do Pesquisa pra Elas. Alguns materiais serão atualizados ao longo do projeto, então podem não estar disponíveis no momento.
 
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
+-   Na aba **"Entenda"**, você encontrará o link dos materiais que devem ser estudados ao longo da semana e que serão importantes para completar as tarefas e demais atividades.
 
-library(googlesheets4)
-library(gt)
-library(tidyverse)
-gs4_deauth()
-d <- read_sheet("https://docs.google.com/spreadsheets/d/1q1fzGwfRkSODzOrgc1a9pU88zixwZHJiUHD771mPRGg/edit#gid=0")
+-   Na aba **"Explore"**, você encontrará algumas sugestões do time de links úteis caso tenha interesse em explorar mais sobre o tópico.
 
-```
+-   Na aba **"Entregue"**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
-```{r}
-#| echo: false
-
-library(dplyr)
-
-d %>%
-  filter(!is.na(Data)) %>%
-  select(-Dia) %>%
-  mutate(Data = as.Date(Data, format = "%B %d")) %>%
-  gt() %>%
-  fmt_date(Data, date_style = 31) %>%
-  tab_style(
-    style = cell_borders(
-      sides = "right",
-      color = "#D3D3D3",
-      style = "solid"
-    ),
-    locations = cells_body(
-      columns = c(Data, Assunto, Entenda, Explore)
-    )
-  ) %>%
-  fmt_markdown(
-    columns = c(Assunto, Entenda, Explore, Entregue)
-  ) %>%
-  cols_width(
-    Semana ~ px(45),
-    Data ~ px(100), 
-    Entenda ~ px(200),
-    Assunto ~ px(250),
-    Explore ~ px(150),
-    Entregue ~ px(150)
-  ) %>%
-  cols_label_with(fn = function(x) {
-    janitor::make_clean_names(x, case = "title") %>%
-      toupper() %>%
-      stringr::str_replace_all("^|$", "**") %>%
-      md()
-  }) %>%
-  tab_options(table.font.size = 13) %>%
-  opt_row_striping()
-
-
-```
+|  S  |   Data    |                  Assunto                   | Entenda                                                                                  | Explore | Entregue                                |
+|:----------:|:----------:|:----------:|------------|------------|--------------|
+|  1  |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |         |                                         |
+|  1  |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |         | Tarefa 1 Liberada                       |
+|  2  |   12/05   |    Introdução à metodologia científica     |                                                                                          |         | Entrega Tarefa 1 + Termo de Compromisso |
+|  2  | Até 19/05 |          Call mentees & mentoras           |                                                                                          |         |                                         |
+|  3  |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |         | Tarefa 2 liberada                       |
+|  3  |           |   Functional programming + Students work   |                                                                                          |         |                                         |
 
 ### Encontros Quinzenais
 
-Homework will be due on Wednesdays at 11:59pm. You will have one week to complete each homework assignment.
+Vamos nos encontrar a cada duas semanas, conforme o cronograma acima, para revisar os assuntos estudados nas semanas anteriores, tirar dúvidas, nos conhecer melhor e trocar experiências!!
 
 ### Tarefas
 
-Labs will be due on Fridays at 11:59pm. You will start the lab during your scheduled lab section.
-
-### Workshops
-
-There will be two exams on the dates:
-
--   October 12, 9am - October 14, 11:59pm
-
--   November 16, 9am - November 16: 11:59pm
+Por favor, lembre-se de entregar todas as tarefas até as 23h59 do domingo seguinte à sua liberação. No mesmo dia, a tarefa da semana seguinte será disponibilizada. Se ocorrer algum imprevisto e você não puder concluir a tempo, não hesite em nos contatar. Estamos aqui para ajudar!
