@@ -1,23 +1,26 @@
 ---
 title: "Cronograma Semanal"
+subtitle: "Atividades e eventos"
 ---
 
 Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas a serem realizadas ao longo das 15 semanas do Pesquisa pra Elas. Alguns materiais serão atualizados ao longo do projeto, então podem não estar disponíveis no momento.
 
--   Na aba **"Entenda"**, você encontrará o link dos materiais que devem ser estudados ao longo da semana e que serão importantes para completar as tarefas e demais atividades.
+-   Na aba **Entenda**, você encontrará o link dos materiais que devem ser estudados ao longo da semana e que serão importantes para completar as tarefas e demais atividades.
 
--   Na aba **"Explore"**, você encontrará algumas sugestões do time de links úteis caso tenha interesse em explorar mais sobre o tópico.
+-   Na aba **Explore**, você encontrará algumas sugestões do time de links úteis caso tenha interesse em explorar mais sobre o tópico.
 
--   Na aba **"Entregue"**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
+-   Na aba **Entregue**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
-|  S  |   Data    |                  Assunto                   | Entenda                                                                                  | Explore | Entregue                                |
+|  S  |   Data    |                  Assunto                   | Entenda                                                                                  | Explore                                    | Entregue                                |
 |:----------:|:----------:|:----------:|------------|------------|--------------|
-|  1  |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |         |                                         |
-|  1  |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |         | Tarefa 1 Liberada                       |
-|  2  |   12/05   |    Introdução à metodologia científica     |                                                                                          |         | Entrega Tarefa 1 + Termo de Compromisso |
-|  2  | Até 19/05 |          Call mentees & mentoras           |                                                                                          |         |                                         |
-|  3  |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |         | Tarefa 2 liberada                       |
-|  3  |           |   Functional programming + Students work   |                                                                                          |         |                                         |
+|  1  |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |                                            |                                         |
+|  1  |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |                                            | Tarefa 1 Liberada                       |
+|  2  |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                                             | [Guia Cientista Beta](Guia Cientista Beta) | Entrega Tarefa 1 + Termo de Compromisso |
+|  2  | Até 19/05 |          Call mentees & mentoras           |                                                                                          |                                            |                                         |
+|  3  |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |                                            | Tarefa 2 liberada                       |
+|  3  |   24/05   |             Call de Interação              |                                                                                          |                                            |                                         |
+|  3  |   25/05   |              Roda de Conversa              |                                                                                          |                                            |                                         |
+|  4  |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                                          |                                            | Entrega Tarefa 2                        |
 
 ### Encontros Quinzenais
 
