@@ -1,6 +1,5 @@
 ---
 title: "Pesquisa Para Elas 2024"
-
 ---
 
 ## Informações Gerais
@@ -11,30 +10,30 @@ Seja muito bem-vinda ao Pesquisa Para Elas 2024! Estamos empolgadas por ter voc�
 
 Durante este programa, você encontrará tarefas semanais cuidadosamente planejadas para aprimorar suas habilidades e compreensão. Nosso compromisso não é apenas fornecer conhecimento, mas também criar um espaço colaborativo para o aprendizado. A cada 15 dias, nos reuniremos para discutir os tópicos estudados e compartilhar experiências!
 
-Estamos aqui para apoiar seu crescimento acadêmico e profissional. Sinta-se à vontade para explorar, questionar e interagir. Mal podemos esperar para começar esta jornada enriquecedora junto com você! 
+Estamos aqui para apoiar seu crescimento acadêmico e profissional. Sinta-se à vontade para explorar, questionar e interagir. Mal podemos esperar para começar esta jornada enriquecedora junto com você!
 
 ## Encontros Semanais
 
-| Tópico               | Horário        | 
-|----------------------|----------------|
-| Encontro Quinzenal   | Quinta - 18h   | 
-| Plantão de Dúvidas   | Sábado - 17h   | 
-| Workshops            |     TBD        | 
+| Tópico                | Horário |
+|-----------------------|---------|
+| Bate-Papo Científico  | TBD     |
+| Plantão de Dúvidas    | TBD     |
+| Rodas de Conversa     | TBD     |
 
+\*OBS: O horário acima será atualizado assim que definirmos os melhores dias e horários para o time e mentoradas.
 
 # Time Pesquisa para Elas
 
 Na tabela abaixo, você encontrará informações sobre o time completo do Pesquisa para Elas, incluindo seus nomes, cargos e informações de contato. Sintam-se à vontade para entrar em contato conosco em caso de dúvidas, para obter orientação ou para discutir qualquer assunto relacionado ao projeto. Estamos aqui para ajudar e contribuir para o seu sucesso no processo científico!
 
-
-| Nome              | Cargo                             | Contato                        |
-|-----------------  |----------------------             |-----------------------         |
-| Giovana Bachmann  | Coordenadora Pesquisa para Elas   | giovanabachmann@gmail.com      |
-| Yasmim Costa      | Diretora Impacto Direto           | yasmimmelissa73@gmail.com      |
-| Anne Dornelas     | Vice-Diretora Impacto Direto      | anne.dornela@hotmail.com       |
-| Alessandra Buffon | Analista                          | alessandradbuffon@gmail.com    |
-| Fabiana Cardoso   | Analista                          | fabicardoso19ufpa@gmail.com    |
-| Isabelly Maia     | Analista                          | mmontalvao.isabelly@gmail.com  |
-
-
-
+| Nome              | Cargo                           | Contato                        |
+|--------------------|--------------------------|---------------------------|
+| Giovana Bachmann  | Coordenadora Pesquisa para Elas | giovanabachmann\@gmail.com     |
+| Yasmim Costa      | Diretora Impacto Direto         | yasmimmelissa73\@gmail.com     |
+| Anne Dornelas     | Vice-Diretora Impacto Direto    | anne.dornela\@hotmail.com      |
+| Alessandra Buffon | Analista                        | alessandradbuffon\@gmail.com   |
+| Aline Montenegro  | Analista                        | alinemtngr\@gmail.com          |
+| Bianca Pitana     | Analista                        | pitanabianca\@gmail.com        |
+| Fabiana Cardoso   | Analista                        | fabicardoso19ufpa\@gmail.com   |
+| Isabelly Maia     | Analista                        | mmontalvao.isabelly\@gmail.com |
+| Yasmim Amorim     | Analista                        | yasmin.amorim123\@gmail.com    |

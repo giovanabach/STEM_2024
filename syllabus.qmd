@@ -2,31 +2,38 @@
 title: "Informações importantes"
 subtitle: "Recursos e Normas"
 ---
+
 <hr>
 
 ## Objetivos do Programa
 
 Ao final das 15 semanas do Pesquisa para Elas, você irá...
 
-- Desenvolver habilidades para compreender e aplicar a abordagem sistemática da metodologia científica em suas pesquisas, incluindo a formulação de questões, definição de hipóteses e seleção de métodos apropriados.
+-   Desenvolver habilidades para compreender e aplicar a abordagem sistemática da metodologia científica em suas pesquisas, incluindo a formulação de questões, definição de hipóteses e seleção de métodos apropriados.
 
-- Adquirir experiência prática em diferentes fases da pesquisa, desde a coleta até a análise de dados, passando pela manipulação eficaz de informações, realização de análise exploratória e utilização de modelagem preditiva.
+-   Adquirir experiência prática em diferentes fases da pesquisa, desde a coleta até a análise de dados, passando pela manipulação eficaz de informações, realização de análise exploratória e utilização de modelagem preditiva.
 
-- Aprender a comunicar de maneira clara e eficaz os resultados de suas pesquisas, seja por meio de trabalhos escritos que seguem padrões acadêmicos ou na apresentação do projeto final de forma coesa e acessível.
+-   Aprender a comunicar de maneira clara e eficaz os resultados de suas pesquisas, seja por meio de trabalhos escritos que seguem padrões acadêmicos ou na apresentação do projeto final de forma coesa e acessível.
 
 ## Communicação & Recursos
 
 Durante o programa, usaremos o e-mail e os grupos de *WhatsApp* para comunicação, o *Zoom* para as reuniões semanais e o *Google Classroom* para a entrega das atividades. Além disso, aqui no website, você encontrará informações adicionais e links para materiais de apoio. Se tiver problemas para acessar algum dos aplicativos mencionados, entre em contato conosco o mais rápido possível. Quanto aos demais aplicativos de organização, fica a critério das mentoradas e mentoras.
 
+-   **Grupo do Whatsapp**: Acesse aqui
+
+-   **Sala no Classroom:** [Acesse aqui](https://classroom.google.com/c/NjUyMjE3MTY1OTAx?cjc=qj37a6n)
+
+-   **Calendar Pesquisa para Elas**: Acesse aqui
+
 ## Tarefas semanais
 
-As tarefas semanais serão disponibilizadas no início da semana e devem ser entregues até as 23:59 da semana seguinte no Google Classroom, seguindo as instruções fornecidas. Fique à vontade para entrar em contato com o time do programa ou com sua mentora em caso de dúvidas ou se precisar de ajuda para compreender ou realizar alguma atividade específica. Estamos aqui para ajudá-lo com o que for necessário!
+As tarefas semanais serão disponibilizadas no início da semana e devem ser entregues até as 23h59 da semana seguinte no Google Classroom, seguindo as instruções fornecidas. Fique à vontade para entrar em contato com o time do programa ou com sua mentora em caso de dúvidas ou se precisar de ajuda para compreender ou realizar alguma atividade específica. Estamos aqui para ajudá-lo com o que for necessário!
 
-### Mentoria
+## Mentoria
 
 Espera-se que você esteja em contato com sua mentora semanalmente. Ela está aqui para apoiá-lo em sua jornada científica, ajudá-lo no desenvolvimento do seu próprio projeto de pesquisa, esclarecer dúvidas e compartilhar experiências. A frequência de reuniões e as formas de organização e comunicação são decididas em conjunto, ficando a critério de ambas.
 
-### Atrasos & Ausências
+## Atrasos & Ausências
 
 É importante que você participe de todas as atividades programadas, chegando pontualmente e se envolvendo ativamente. As datas de entrega das tarefas semanais e demais atividades do programa são estabelecidas para garantir que você possa obter o máximo benefício do programa e auxiliar no seu processo de aprendizagem da metodologia científica. Entendemos que imprevistos podem ocorrer, dificultando a entrega de alguma atividade dentro do prazo estabelecido. Em tais casos, por favor, entre em contato com a equipe do Pesquisa Para Elas. Estamos aqui para ajudá-la!
 

@@ -12,15 +12,12 @@ website:
     pinned: true
     align: center
     tools:
-      - icon: chat-dots-fill
+      - icon: bi bi-camera-video-fill text-white
         href: https://github.com/rstudio-conf-2022/teach-ds-course-website
-        text: GitHub
-      - icon: check-square-fill
-        href: https://rstudio.cloud/spaces/237799
+        text: Zoom
+      - icon: bi bi-google text-white
+        href: https://classroom.google.com/c/NjUyMjE3MTY1OTAx?cjc=qj37a6n
         text: Google Classroom
-      - icon: camera-reels-fill
-        href: https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=b5b29027-7084-40bf-9a2f-b0cf0100bb98
-        text: "Gravações"
         
     style: docked
     search: true
