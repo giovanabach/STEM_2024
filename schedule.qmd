@@ -12,7 +12,7 @@ Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas 
 -   Na aba **Entregue**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
 | Semana |   Data    |                  Assunto                   | Entenda                                                                                  | Explore                                        | Entregue                                |
-|:---------:|:---------:|:---------:|-------------------|-----------|-----------|
+|:------:|:---------:|:------------------------------------------:|------------------------------------------------------------------------------------------|------------------------------------------------|-----------------------------------------|
 |   1    |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |                                                |                                         |
 |   1    |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |                                                | Tarefa 1 Liberada                       |
 |   2    |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
