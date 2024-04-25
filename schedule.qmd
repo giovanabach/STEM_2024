@@ -11,17 +11,17 @@ Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas 
 
 -   Na aba **Entregue**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
-|  S  |   Data    |                  Assunto                   | Entenda                                                                                  | Explore                                        | Entregue                                |
+| Semana |   Data    |                  Assunto                   | Entenda                                                                                  | Explore                                        | Entregue                                |
 |:---------:|:---------:|:---------:|-------------------|-----------|-----------|
-|  1  |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |                                                |                                         |
-|  1  |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |                                                | Tarefa 1 Liberada                       |
-|  2  |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
-|  2  | Até 19/05 |          Call mentees & mentoras           |                                                                                          |                                                |                                         |
-|  3  |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |                                                | Tarefa 2 liberada                       |
-|  3  |   24/05   |             Call de Interação              |                                                                                          |                                                |                                         |
-|  3  |   25/05   |              Roda de Conversa              |                                                                                          |                                                |                                         |
-|  4  |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                                          |                                                | Entrega Tarefa 2                        |
-|     |           |                                            | **OBS: Próximas semanas serão liberadas conforme andamento do programa**                 |                                                |                                         |
+|   1    |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |                                                |                                         |
+|   1    |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |                                                | Tarefa 1 Liberada                       |
+|   2    |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
+|   2    | Até 19/05 |          Call mentees & mentoras           |                                                                                          |                                                |                                         |
+|   3    |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |                                                | Tarefa 2 liberada                       |
+|   3    |   24/05   |             Call de Interação              |                                                                                          |                                                |                                         |
+|   3    |   25/05   |              Roda de Conversa              |                                                                                          |                                                |                                         |
+|   4    |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                                          |                                                | Entrega Tarefa 2                        |
+|        |           |                                            | **OBS: Próximas semanas serão liberadas conforme andamento do programa**                 |                                                |                                         |
 
 ### Bate-Papo Científico
 
