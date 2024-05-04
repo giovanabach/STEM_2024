@@ -11,21 +11,21 @@ Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas 
 
 -   Na aba **Entregue**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
-| Semana |   Data    |                  Assunto                   | Entenda                                                                                  | Explore                                        | Entregue                                |
-|:------:|:---------:|:------------------------------------------:|------------------------------------------------------------------------------------------|------------------------------------------------|-----------------------------------------|
-|   1    |   04/05   |          Reunião de Boas-vindas!!          | [Slides](https://www.stemparaminas.com/)                                                 |                                                |                                         |
-|   1    |   06/05   | Apresentações + Ferramentas de organização | [Aplicativos de organização](https://www.deltabc.com.br/blog/aplicativos-de-organizacao) |                                                | Tarefa 1 Liberada                       |
-|   2    |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
-|   2    | Até 19/05 |          Call mentees & mentoras           |                                                                                          |                                                |                                         |
-|   3    |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                                          |                                                | Tarefa 2 liberada                       |
-|   3    |   24/05   |             Call de Interação              |                                                                                          |                                                |                                         |
-|   3    |   25/05   |              Roda de Conversa              |                                                                                          |                                                |                                         |
-|   4    |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                                          |                                                | Entrega Tarefa 2                        |
-|        |           |                                            | **OBS: Próximas semanas serão liberadas conforme andamento do programa**                 |                                                |                                         |
+| Semana |   Data    |                  Assunto                   | Entenda                                                                  | Explore                                        | Entregue                                |
+|:---------:|:---------:|:---------:|-------------------|-----------|-----------|
+|   1    |   04/05   |          Reunião de Boas-vindas!!          |                                                                          |                                                |                                         |
+|   1    |   06/05   | Apresentações + Ferramentas de organização |                                                                          |                                                | Tarefa 1 Liberada                       |
+|   2    |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
+|   2    | Até 19/05 |         Call mentoradas & mentoras         |                                                                          |                                                |                                         |
+|   3    |   19/05   |   Escolha do tema e problema da pesquisa   |                                                                          |                                                | Tarefa 2 liberada                       |
+|   3    |   24/05   |              Café com Ciência              |                                                                          |                                                |                                         |
+|   3    |   25/05   |                  Palestra                  |                                                                          |                                                |                                         |
+|   4    |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                          |                                                | Entrega Tarefa 2                        |
+|        |           |                                            | **Obs: Próximas semanas serão liberadas conforme andamento do programa** |                                                |                                         |
 
-### Bate-Papo Científico
+###  Café com Ciência 
 
-Estamos muito animadas para o nosso Bate-Papo Científico! Vamos nos encontrar a cada duas semanas, conforme o cronograma acima, para revisar os assuntos estudados nas semanas anteriores, tirar dúvidas, nos conhecer melhor e trocar experiências!!
+Estamos muito animadas para o nosso **Café com Ciência** ! Vamos nos encontrar a cada duas semanas, conforme o cronograma acima, para revisar os assuntos estudados nas semanas anteriores, tirar dúvidas, nos conhecer melhor e trocar experiências!!
 
 ### Tarefas
 
