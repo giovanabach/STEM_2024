@@ -19,11 +19,11 @@ Ao final das 15 semanas do Pesquisa para Elas, você irá...
 
 Durante o programa, usaremos o e-mail e os grupos de *WhatsApp* para comunicação, o *Zoom* para as reuniões semanais e o *Google Classroom* para a entrega das atividades. Além disso, aqui no website, você encontrará informações adicionais e links para materiais de apoio. Se tiver problemas para acessar algum dos aplicativos mencionados, entre em contato conosco o mais rápido possível. Quanto aos demais aplicativos de organização, fica a critério das mentoradas e mentoras.
 
--   **Grupo do Whatsapp**: Acesse aqui
+-   **Grupo do Whatsapp**: [Acesse aqui](https://chat.whatsapp.com/F7vILED0vw53UrkgB0YDj9)
 
 -   **Sala no Classroom:** [Acesse aqui](https://classroom.google.com/c/NjUyMjE3MTY1OTAx?cjc=qj37a6n)
 
--   **Calendar Pesquisa para Elas**: Acesse aqui
+-   **Calendar Pesquisa para Elas**: [Acesse aqui](https://calendar.google.com/calendar/u/2?cid=Y2xhc3Nyb29tMTAxNTc1ODE3ODkxMzkzMDQ3ODc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 ## Tarefas semanais
 
@@ -33,9 +33,35 @@ As tarefas semanais serão disponibilizadas no início da semana e devem ser ent
 
 Espera-se que você esteja em contato com sua mentora semanalmente. Ela está aqui para apoiá-lo em sua jornada científica, ajudá-lo no desenvolvimento do seu próprio projeto de pesquisa, esclarecer dúvidas e compartilhar experiências. A frequência de reuniões e as formas de organização e comunicação são decididas em conjunto, ficando a critério de ambas.
 
-## Atrasos & Ausências
+### Atrasos & Ausências
 
 É importante que você participe de todas as atividades programadas, chegando pontualmente e se envolvendo ativamente. As datas de entrega das tarefas semanais e demais atividades do programa são estabelecidas para garantir que você possa obter o máximo benefício do programa e auxiliar no seu processo de aprendizagem da metodologia científica. Entendemos que imprevistos podem ocorrer, dificultando a entrega de alguma atividade dentro do prazo estabelecido. Em tais casos, por favor, entre em contato com a equipe do Pesquisa Para Elas. Estamos aqui para ajudá-la!
+
+## **Politica de Strikes**
+
+A implementação da política de **STRIKES** visa promover o comprometimento das mentoradas com o programa. Estabelecendo padrões claros de comportamento e responsabilidade, buscamos garantir que as mentoradas estejam engajadas em suas atividades e interações, contribuindo assim para um ambiente de aprendizado eficaz e colaborativo. Além disso, ao estabelecer consequências definidas para o descumprimento dos compromissos assumidos, procuramos incentivar um maior aproveitamento do programa, garantindo que as mentees estejam plenamente conscientes da importância de sua participação ativa para o sucesso de sua jornada cientifica.
+
+Caso seja identificado que a mentorada não está respeitando os compromissos firmados neste Termo de Compromisso, a equipe do Pesquisa para Elas registrará a ocorrência de STRIKES e as comunicará à mentee. Ao acumular 03 STRIKES, a mentorada poderá ser automaticamente desligada do programa. Abaixo estão listados 05 comportamentos que podem provocar STRIKE:
+
+1.  **Baixa Frequência de Contato:**
+
+A mentee deve manter uma comunicação ativa com o/a mentor(a) ao menos duas vezes por mês. Caso passe mais de 15 dias sem conversar com a sua mentora sem avisá-la previamente, a mentee receberá 01 STRIKE.
+
+1.  **Atraso no Preenchimento de Formulários e Tarefas do Classroom:**
+
+A mentee deve preencher os Formulários de Acompanhamento Mensal no prazo determinado pela coordenação ou avisar se não for possível. Caso contrário, receberá 01 STRIKE.
+
+1.  **Dificuldade de Contato Não Comunicada:**
+
+Ao enfrentar dificuldades de contato com sua mentora, a mentee deve reportar ao time para que medidas possam ser tomadas rapidamente. O comunicado deverá ser efetuado por e-mail, com o assunto \[DIFICULDADE DE CONTATO\] para o endereço [pesquisaparaelasoficial\@gmail.com](mailto:pesquisaparaelasoficial@gmail.com) . Caso a mentee não reporte a perda de contato com a mentora, ela está sujeita a sofrer 01 STRIKE.
+
+**IV. Ausência sem justificativa prévia em atividades obrigatórias:**
+
+Caso não possa comparecer a algum workshop ou palestra marcados pela coordenação, a mentee deve informar ao time do Pesquisa para Elas sobre sua ausência com antecedência. Isso pode ser feito através do e-mail do Pesquisa para Elas ou para o email dos membros da coordenação do programa (Os email estão no Website). Caso contrário, receberá 01 STRIKE. Justificativas posteriores não anulam a advertência. Este compromisso visa valorizar o tempo dos voluntários dedicado à organização desses encontros.
+
+**V. Comportamento Inadequado:**
+
+Comentários desrespeitosos perante outras mentoradas, mentoras e a coordenação não são tolerados sob nenhuma hipótese. Se qualquer queixa sobre o comportamento da mentorada chegar ao time do Pesquisa para Elas, essa será avaliada e poderá resultar em 02 ou 03 STRIKES, conforme a gravidade observada. Exemplos incluem discriminação racial, qualquer tipo de assédio, entre outros.
 
 ### Desligamento do programa
 
@@ -45,6 +71,6 @@ O desligamento do programa poderá ocorrer se a participante não participar das
 
 -   **Maio 4:** Boas-vindas!
 
--   **Agosto 17**: Entrega do Plano de Pesquisa
+-   **Agosto 18**: Entrega do Plano de Pesquisa
 
 -   **Agosto 17-18**: Simpósio
