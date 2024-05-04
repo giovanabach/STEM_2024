@@ -13,11 +13,14 @@ website:
     align: center
     tools:
       - icon: bi bi-camera-video-fill text-white
-        href: https://github.com/rstudio-conf-2022/teach-ds-course-website
+        href: https://zoom.us/signin#/login
         text: Zoom
       - icon: bi bi-google text-white
         href: https://classroom.google.com/c/NjUyMjE3MTY1OTAx?cjc=qj37a6n
         text: Google Classroom
+      - icon: bi bi-archive-fill text-white
+        href: https://drive.google.com/drive/folders/1IqMOHhrUlj4jfBgnxjbrnlswmYW3NvnJ?usp=sharing 
+        text: Google Drive     
         
     style: docked
     search: true
