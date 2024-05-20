@@ -12,7 +12,7 @@ Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas 
 -   Na aba **Entregue**, estão listadas as datas de disponibilidade das tarefas e seus prazos.
 
 | Semana |   Data    |                  Assunto                   | Entenda                                                                  | Explore                                        | Entregue                                |
-|:---------:|:---------:|:---------:|-------------------|-----------|-----------|
+|:------:|:---------:|:------------------------------------------:|--------------------------------------------------------------------------|------------------------------------------------|-----------------------------------------|
 |   1    |   04/05   |          Reunião de Boas-vindas!!          |                                                                          |                                                |                                         |
 |   1    |   06/05   | Apresentações + Ferramentas de organização |                                                                          |                                                | Tarefa 1 Liberada                       |
 |   2    |   12/05   |    Introdução à metodologia científica     | [Curso APICE](https://apice.febrace.org.br/)                             | [Guia Cientista Beta](Guia%20Cientista%20Beta) | Entrega Tarefa 1 + Termo de Compromisso |
@@ -23,7 +23,7 @@ Abaixo você encontrará o cronograma semanal dos materiais, assuntos e tarefas 
 |   4    |   26/05   |       Entendendo o Plano de Pesquisa       |                                                                          |                                                | Entrega Tarefa 2                        |
 |        |           |                                            | **Obs: Próximas semanas serão liberadas conforme andamento do programa** |                                                |                                         |
 
-###  Café com Ciência 
+### Café com Ciência
 
 Estamos muito animadas para o nosso **Café com Ciência**! Vamos nos encontrar a cada duas semanas, conforme o cronograma acima, para revisar os assuntos estudados nas semanas anteriores, tirar dúvidas, nos conhecer melhor e trocar experiências!!
 
